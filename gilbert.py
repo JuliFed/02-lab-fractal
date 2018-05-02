@@ -1,8 +1,9 @@
-from turtle import *
+import turtle
+import string
 
 
 def draw_part(lx, ly):
-    setpos(X + lx, Y + ly)
+    turtle.setpos(X + lx, Y + ly)
     global X
     X = X + lx
     global Y
@@ -53,13 +54,13 @@ def d(i):
         b(i - 1)
 
 
-speed("fast")
+turtle.speed("fast")
 lx = 15
 ly = 15
 X = -100
 Y = -100
-up()
-setpos(X, Y)
-down()
+turtle.up()
+turtle.setpos(X, Y)
+turtle.down()
 a(4)
-done()
+turtle.done()
