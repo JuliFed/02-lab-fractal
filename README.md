@@ -1,1 +1,0 @@
-# 02-lab-fractal
